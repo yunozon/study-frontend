@@ -1,0 +1,15 @@
+body {
+    font-size: 22px; /* body全体に反映 */
+}
+
+p {
+    color: purple; /* pタグに反映 */
+}
+
+.gray { /* class="gray"に反映 */
+    color: gray; /* class="gray"に反映 */
+}
+
+#second { /* id="second"に反映 */
+    font-style: italic; /* id="second"に反映 */
+}
