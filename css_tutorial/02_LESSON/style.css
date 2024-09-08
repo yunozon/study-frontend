@@ -1,10 +1,36 @@
+html {
+    font-size: 22px;
+}
+
 body {
-    font-size: 22px; /* body全体に反映 */
+    font-size: 22px;
+}
+
+main {
+    font-family: monospace;
+}
+
+button, input, textarea, select{
+    font: inherit; /* button, input, textarea, selectに反映 */
+}
+
+h1, h2 { /* h1タグとh2タグに反映  カンマ必要*/
+    color: blue;
 }
 
 p {
     color: purple; /* pタグに反映 */
 }
+
+p {
+    color: red; /* pタグに反映 */
+}
+
+.highlight { /* class="highlight"に反映 */
+    text-transform: uppercase;
+    background-color: gold; /* class="highlight"に反映 */
+}
+
 
 .gray { /* class="gray"に反映 */
     color: gray; /* class="gray"に反映 */
